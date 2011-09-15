@@ -1,0 +1,17 @@
+clear
+echo "*** Cleaning directories ***"
+rm ../kernel/*
+rm ../system/lib/modules/*
+echo "*** Copying modules ***"
+cp drivers/net/wireless/bcm4325/wireless.ko ../system/lib/modules/
+echo "*** Copying kernel ***"
+cp arch/arm/boot/zImage ../kernel/
+echo "*** DONE! ***"
+echo "******************************"
+echo "******************************"
+echo "Kernel zImage is at ../kernel/zImage"
+echo "Kernel modules are at ../system/lib/modules"
+echo "******************************"
+echo "Opening file manager at base location, please wait..."
+sleep 3
+nautilus ../
