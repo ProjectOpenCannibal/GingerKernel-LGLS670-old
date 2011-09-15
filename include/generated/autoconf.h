@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
  * Linux kernel version: 2.6.35.7
- * Thu Sep 15 06:44:38 2011
+ * Thu Sep 15 06:57:40 2011
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_NF_CONNTRACK_H323 1
@@ -248,7 +248,7 @@
 #define CONFIG_NF_NAT_SNMP_BASIC 1
 #define CONFIG_VIDEO_V4L1_COMPAT 1
 #define CONFIG_CPU_FREQ 1
-#define CONFIG_USB_GSPCA_MODULE 1
+#define CONFIG_USB_GSPCA 1
 #define CONFIG_DUMMY_CONSOLE 1
 #define CONFIG_NLS_ASCII 1
 #define CONFIG_TRACE_IRQFLAGS_SUPPORT 1
